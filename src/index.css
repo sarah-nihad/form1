@@ -1,0 +1,8 @@
+*{
+    font-family: 'Lemonada', cursive;
+   font-size: 14px;
+    /* font-family: 'Amiri', serif; */
+}
+body{
+    background-image:linear-gradient(to left, #385b79, #092b6e );
+}

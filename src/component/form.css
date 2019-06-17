@@ -1,0 +1,142 @@
+#name{
+    float:right;
+    margin-right: 10px;
+}
+ #text{
+    width:350px;
+} 
+
+#rad{
+   
+    margin-right: 10px;
+   
+}
+#im{
+   
+    height: 100px;
+}
+.im{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    margin-top: 15px;
+
+}
+#p1{
+    margin-top: 5px;
+    font-size: 10px;
+    color: rgb(230, 67, 3);
+  font-weight: bold;
+ 
+}
+#col1{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#col2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+#rado{
+    
+      
+        align-items: flex-end;
+        margin-right: 10px;
+       display: flex;
+       flex-direction: column-reverse;
+       
+     
+  
+}
+#li{
+    display: inline;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#main{
+    background-image:linear-gradient(to left, #385b79, #092b6e );
+
+
+}
+#form{
+  
+   
+   
+    /* background-size: cover; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#formrow{
+    border-radius: 10px;
+    margin:10px 0 10px 0;
+    /* background-color: rgb(224, 255, 206); */
+    background-image: linear-gradient(to left, rgb(173, 202, 155) , rgb(165, 165, 98));
+    height: 100%;
+}
+#bb{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+   
+}
+#b1{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+@media (max-width: 575.98px) { 
+    #col1{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+    #col2{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #text{
+        width:250px;
+    } 
+    #formrow{
+        width: 370px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    #col1{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+    #col2{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #text{
+        width:300px;
+    } 
+    #formrow{
+        width: 450px;
+    }
+
+ }
